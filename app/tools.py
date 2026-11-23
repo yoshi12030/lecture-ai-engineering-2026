@@ -99,6 +99,7 @@ def make_quiz(lecture: int) -> str:
         },
         ensure_ascii=False,
     )
+
 def search_materials(query: str) -> str:
     """第1〜3回の本講義資料を検索し、関連ページの本文・タイトル・ページ番号を返す。
 
